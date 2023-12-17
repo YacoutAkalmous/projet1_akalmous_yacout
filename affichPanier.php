@@ -2,7 +2,7 @@
 session_start();
 echo "<table border='1' style='border-collapse: collapse' cellpadding='7'>";
 echo "<tr><td colspan='4'>Panier</td></tr>";
-echo "<tr><th>refproduit</th><th>nom</th><th>Quantité</th><th>Prix Unitaire</th></tr>";
+echo "<tr><th>refproduit</th><th>Nom</th><th>Quantité</th><th>Prix Unitaire</th></tr>";
 if(empty($_SESSION['panier']['refproduit'])) // panier vide
 {
 	echo "<tr><td colspan='5'>Votre panier est vide</td></tr>";
