@@ -1,0 +1,228 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(241, 241, 241);
+  margin: 0px;
+}
+
+.welcome {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* display conatiner  */
+
+.topnav {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-family: adelia;
+  padding-top: 10px;
+  font-size: 17px;
+}
+
+/* display conatiner  */
+
+.ntopnav {
+  overflow: hidden;
+  width: 100%;
+}
+
+a:last-of-type {
+  margin-right: 100px;
+}
+
+.ntopnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.ntopnav a:hover {
+  background-color: antiquewhite;
+}
+
+.ntopnav img {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.ftopnav {
+  overflow: hidden;
+}
+
+.ftopnav {
+  float: left;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.search-container {
+  display: flex;
+}
+
+.searchBar {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  width: 500px;
+}
+
+.buttonSearch {
+  background-image: url("../assets/magnifying-glass.png");
+  width: 40px;
+  height: 30px;
+  background-size: 35px 35px;
+  color: white;
+  border: 0px;
+}
+
+.menuGestion {
+  margin-left: auto;
+  display: inline;
+}
+
+.btnMenu {
+  width: 30px;
+  height: 30px;
+  background-size: 30px 30px;
+  border: 0px;
+  float: right;
+  margin-top: 0px;
+  margin-left: 10px;
+}
+
+#login {
+  border-radius: 4px;
+  background-color: #f4511e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8px;
+  width: 80px;
+  margin: 5px;
+}
+
+#sortir {
+  border-radius: 50px;
+  background-color: #ff3c00;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8px;
+  width: 50px;
+  margin: 5px;
+}
+
+#nameU {
+  border-radius: 4px;
+  background-color: #7ef41e;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 15px;
+  width: 80px;
+  margin: 5px;
+}
+
+#basket {
+  border-radius: 4px;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 8px;
+  width: 50px;
+  height: 30px;
+  margin: 5px;
+  background-image: url("../assets/basket.png");
+  background-position: 0;
+  padding-top: 0px;
+  background-repeat: no-repeat;
+  background-size: 50px 50px;
+}
+
+/* Menu de gestions des rubriques */
+
+input[type="submit"] {
+  width: 90px;
+  height: 90px;
+  margin: 20px;
+  background-size: 105px 105px;
+  border: solid 1px black;
+  color: buttonface;
+  float: left;
+  border: 0px;
+}
+
+input[type="submit"]:hover {
+  /* color: red; */
+  height: 90px;
+  margin: 20px;
+  background-size: 115px 115px;
+}
+
+#Haut_homme {
+  background-image: url("../assets/HommeShirstIcon.png");
+}
+
+#Bas_homme {
+  background-image: url("../assets/HommeShortIcon.png");
+}
+
+#Chaussure_homme {
+  background-image: url("../assets/HommeShoesIcon.png");
+}
+
+#Haut_femme {
+  background-image: url("../assets/GirlShirstIcon.png");
+}
+
+#Bas_femme {
+  background-image: url("../assets/GirlShortIcon.png");
+}
+
+#Chaussure_femme {
+  background-image: url("../assets/GrilShoesIcon.png");
+}
+
+#Robe_femme {
+  background-image: url("../assets/GirlRobeIcon.png");
+}
+
+#Haut_others {
+  background-image: url("../assets/HommeShirstIcon.png");
+}
+
+#Bas_others {
+  background-image: url("../assets/HommeShortIcon.png");
+}
+
+#Chaussure_others {
+  background-image: url("../assets/HommeShoesIcon.png");
+}
+
+.handleePage {
+  height: 100%s;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  text-align: center;
+  height: 70px;
+}
