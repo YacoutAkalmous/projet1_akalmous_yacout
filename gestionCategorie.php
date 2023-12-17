@@ -58,7 +58,7 @@
     <!-- <button>Azara bazara</button><input type="submit" value="Ajouter" class="add" name="btnAd"><input
                 type="submit" value="Retirer" class="remove" name="btnAd">
             <button>Azara bazara</button><input type="submit" value="Ajouter" class="add"><input type="submit"
-                value="Retirer" class="remove"> -->
+                value="Retirer" class="Remove"> -->
 
 
     <div class="containerDisplayAdmin">
