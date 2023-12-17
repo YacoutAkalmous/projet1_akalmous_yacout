@@ -94,7 +94,7 @@
 
     <div class="tab">
         <form method="get">
-            <input type="submit" value="Ajouter un Admin" class="tablinks" name="admin">
+            <input type="submit" value="Ajouter un admin" class="tablinks" name="admin">
             <input type="submit" value="Ajouter une categorie" class="tablinks" name="categorie">
             <input type="submit" value="Gerer des produits" class="tablinks" name="produits">
         </form>
