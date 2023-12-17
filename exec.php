@@ -5,7 +5,7 @@ if ($page != 'nothing') {
         echo "<form METHOD='post'>";
             $req = "SELECT * FROM rubriques WHERE refRubrique = '$page'";
             $res = $conn->query($req);
-            //echo "good";
+            //echo "Good";
             // echo "<tr>";
             while ($t = $res->fetch_assoc()) {
                $array = explode("/",$t["rubrique"]);
