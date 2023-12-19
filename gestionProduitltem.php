@@ -43,7 +43,7 @@ body {
     font-size: 17px;
 }
 
-/* Change background color of buttons on hover */
+/* Change background color of button on hover */
 .tab .tablinks:hover {
     background-color: #ddd;
 }
