@@ -15,7 +15,7 @@
     $page = 'nothing';
     $refCat = 'nothing';
     $sous_page = 'Rien'; 
-	//------création du panier------
+	//-------création du panier-------
 
 	if (!isset($_SESSION['panier']))
 	{
